@@ -1,0 +1,19 @@
+img {
+    width: 10%;
+    margin: 0 auto;
+    display: block;
+}
+.three {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.one {
+    margin-left: 15px;
+}
+.one, .two {
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+}

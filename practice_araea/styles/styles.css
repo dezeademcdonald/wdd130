@@ -6,28 +6,44 @@
     background-color: white;
     color: steelblue;
 }
-body {
-    text-align: center;
-}
-nav {
-    background-color: steelblue;
-    padding: 10px;
+footer p {
+    font-size: 20px;
+    margin: 20px;
 }
 a {
     color: white;
     margin: 40px;
+    font-size: 1.5em;
 }
 h1 {
+    width: 80%;
+    margin: 0 auto;
     color: steelblue;
+    text-align: center;
 }
 img {
-   width: 800px;
-   border: 40px solid steelblue; 
+    width: 40%;
+    border: 40px solid steelblue;
+    margin: 0 auto;
+    display: block;
 }
-p {
-    padding: 10px;
+main p {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    
 }
-footer {
+nav, footer {
     background-color: steelblue;
     color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+* {
+    border: 2px solid steelblue;
+}
+a:hover {
+    background-color: white;
+    color: rgb(16, 7, 7);
 }
