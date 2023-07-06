@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto+Mono:wght@300&family=Source+Serif+Pro&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+.heading-main {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    font-family: "Marck Script", helvetica, sans-serif;
+    font-size: 2em;
+}
+nav a:hover {
+    background-color: #d9d9d9;
+    color: black;    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+#pic_hero {
+    width: 100%;
+}
+.log {
+    width: 90px;
+}
+#log_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+header {
+    background-color: #3c6e71;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.button_one, .button_two {
+    text-align: center;
+}
+.button_one {
+    margin-top: 35px;
+}
+.button_two {
+    margin-top: 20px;
+}
+.payment, .pay {
+    background-color: #3c6e71;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Helvetica, Roboto, sans-serif;
+    border-radius: 5px;
+}
+.payment {
+    padding: 10px 15px;
+}
+.pay {
+    padding: 5px 10px;
+}
+.payment:hover, .pay:hover {
+    background-color: aqua;
+    color: white;
+}
+.pic {
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #3c6e71;
+    color: white;
+}
+.grid-home {
+    display: grid;
+    grid-template-columns: 800px auto;
+}
+main p {
+    margin-top: 150px;
+    margin-right: 15px;
+    font-family: Roboto, Arial, sans-serif;
+    background-color: #353535;
+    color: white;
+    padding: 5px 15px;
+}
+footer a {
+    text-decoration: none;
+}
