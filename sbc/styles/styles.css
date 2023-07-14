@@ -141,3 +141,42 @@ main .p-two {
     font-size: 1em;
     line-height: 1.5em;
 }
+/* Subpage2 CSS */
+main .p-three {
+    text-align: center;
+}
+.main-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding-top: 150px;
+    padding-left: 125px;
+    padding-right: 100px;
+
+}
+.picture_three {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.picture_four {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.picture_three, .picture_four {
+    padding: 30px 30px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+.s-three {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 25px 25px;
+    background-color: #3c6e71;
+    color: #d9d9d9;
+    font-family: Roboto, Arial, serif;
+    border-radius: 10px;
+}
+.p-three {
+    font-size: 2em;
+}
+    
